@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@SandaruDC</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/jpg" href="Images/logo.png" />
+    <script
+      src="https://kit.fontawesome.com/eb9a09f072.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="navid">
+          <h1 id="name_heading" data-text="@𝗦𝗮𝗻𝗱𝗮𝗿𝘂𝗗𝗖" href="index.html"></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+        </nav>
+        <div class="profile-picture"></div>
+        <div class="header-text">
+          <h2><strong>Hi, I'm Sandaru</strong></h2>
+          <p id="p1id">From Srilanka</p>
+          <br />
+          <p id="position1">Fulstack Developer</p>
+          <p id="discription">
+            I work with multi-disciplinary teams to achieve technical and
+            business goals effectively.
+          </p>
+          <br />
+          <i class="fa-brands fa-github" id="iconli"></i>
+          <i class="fa-brands fa-linkedin" id="iconli"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!-- -------------------About-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div id="col2">
+          <h3>About me</h3>
+          <p id="discription">
+            I work with multi-disciplinary teams to achieve technical and
+            business goals effectively. I bring a well-rounded technical
+            expertise to teams that want to provide the best experience for
+            their users and drive business growth.
+          </p>
+        </div>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skils')">Skils</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skils">
+          <ul>
+            <li><span style="font-size: 17px;">UI | UX</span><br />&nbsp;Design web app interface<br>
+               <i id="details" class="fa-brands fa-figma">&nbsp;&nbsp;&nbsp; Figma</i>
+            </li>
+            <li><span style="font-size: 17px;">Web Development</span><br />
+              <i id="details" class="fa-brands fa-html5">&nbsp;&nbsp;&nbsp;HTML</i><br>
+              <i id="details" class="fa-brands fa-css3-alt">&nbsp;&nbsp;&nbsp;CSS</i><br>
+              <i id="details" class="fa-brands fa-square-js">&nbsp;&nbsp;&nbsp;JavaScript</i><br>
+              <i id="details"  class="fa-brands fa-react">&nbsp;&nbsp;&nbsp;React</i><br>
+              <i id="details" class="fa-brands fa-node">&nbsp;&nbsp;&nbsp;Node Js</i>
+            </li>
+            <li>
+              <span style="font-size: 17px;">App Development</span><br />&nbsp;Web App | Desctop App | Mobile
+              App<br>
+              <i id="details" class="fa-brands fa-java">&nbsp;&nbsp;&nbsp;Java</i>
+            </li>
+    
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span style="font-size: 18px;">Since 2020</span><br />&nbsp;Freelance Developer</li>
+           
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span style="font-size: 17px;">2021-2026</span><br />&nbsp;Underrgraduate Software engineer
+            </li>
+            <li><span style="font-size: 17px;">Advanced level</span><br>&nbsp;Technology Scheme</li>
+          </ul>
+        </div>
+        <br />
+        <hr />
+      </div>
+    </div>
+
+    <!-- ----------------------Projects----------------------- -->
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-titles">My Works</h1>
+      </div>
+
+      <div class="work-list-titles">
+        <p
+          class="work-list-links work-active-link"
+          onclick="OpenWork('UniversityProject')"
+        >
+          University Projects
+        </p>
+        <p class="work-list-links" onclick="OpenWork('MyProject')">
+          My Projects
+        </p>
+      </div>
+
+      <div class="work-list">
+        <div class="work work-active-tab" id="UniversityProject">
+          <img src="Images/work-1.png" />
+          <div class="layer">
+            <h3>Counselling Web</h3>
+            <p>
+              Using this site you can contact consellors and book a session and
+              get appointment for solve youre mental problems
+            </p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="work" id="MyProject">
+          <img src="Images/work-3.png" />
+          <div class="layer">
+            <h3>Calculator</h3>
+            <p>You can calculate youre calclation using web Calculator</p>
+            <a href="/Calculator/cal.html"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr style="margin: 15%" />
+    <!-- ----------------------Contact-------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="raw">
+          <div class="contact-left">
+            <h1 class="sub-titles">Contact</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>jsandarudilshan@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>0711410094</p>
+
+            <div class="social-meadia-icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your E-Mail"
+                required
+              />
+              <textarea
+                name="Message"
+                raw="10"
+                placeholder="Your message"
+              ></textarea>
+              <button type="button" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
